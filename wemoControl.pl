@@ -3,6 +3,7 @@ use strict;
 use warnings;
 
 use WebService::Belkin::WeMo::Discover;
+use WebService::Belkin::WeMo::Device;
 
 my $wemoDiscover = WebService::Belkin::WeMo::Discover->new();
 
